@@ -10,6 +10,7 @@ public class PracticeHashMapCollection {
 
 		myPracticeMapObj.put("Student Name", "Ajay");
 		myPracticeMapObj.put("Class", "9th Class");
+		myPracticeMapObj.put("RullNo","215");
 		myPracticeMapObj.put("School Name ", "Darwin High School");
 		myPracticeMapObj.put("Student Fee", "15000");
 		myPracticeMapObj.put("Rank", "A Grade");
