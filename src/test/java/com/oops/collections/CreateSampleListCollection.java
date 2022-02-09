@@ -29,6 +29,27 @@ public class CreateSampleListCollection {
 		stdIdList.addAll(stdIdList1);
 		System.out.println(stdIdList);
 
+		System.out.println(stdIdList1.get(0));
+		System.out.println(stdIdList1.get(1));
+		System.out.println(stdIdList1.get(2));
+
+		System.out.println(stdIdList1.equals(stdIdList1));
+		System.out.println(stdIdList1.equals(stdIdList));
+
+		System.out.println(stdIdList1.contains(101));
+		System.out.println(stdIdList1.contains(107));
+
+		System.out.println(stdIdList1.indexOf(109));
+		System.out.println(stdIdList1.indexOf(113));
+
+		System.out.println(stdIdList1.isEmpty());
+		System.out.println(stdIdList1.size());
+		System.out.println(stdIdList.size());
+
+		System.out.println(stdIdList1.remove(0));
+		System.out.println(stdIdList1);
+		System.out.println(stdIdList);
+
 	}
 
 }
