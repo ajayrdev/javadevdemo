@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demoproject.MyFirstTestNgClass">
+      <class name="com.exceptionhandling.ExceptionHandlingPractice">
         <methods>
-          <include name="mySecondTestCase"/>
+          <include name="myFirstTest"/>
         </methods>
-      </class> <!-- demoproject.MyFirstTestNgClass -->
+      </class> <!-- com.exceptionhandling.ExceptionHandlingPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
