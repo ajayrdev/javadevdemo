@@ -6,7 +6,7 @@
       <parameter name="password" value="pass@123"/>-->
       <classes>
       <class name="com.automation.tests.MyTestngClass"/>
-       <class name="com.automation.tests.MyTestngClass2"/>
+      <!-- <class name="com.automation.tests.MyTestngClass2"/> -->
       </classes>
   </test> <!-- Test --> 
 </suite> <!-- Suite -->

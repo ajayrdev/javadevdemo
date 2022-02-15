@@ -34,14 +34,14 @@ public class JavaStringsDemo {
 		
 		//convert to lowercase() or uppercase()
 		System.out.println(myString.toLowerCase()); // to convert all the string chars to small letters or lower case letters
-		System.out.println(myString.toUpperCase()); // to convert to upercase letters
+		System.out.println(myString.toUpperCase()); // to convert to UpperCase letters
 		
 		System.out.println(myString.equals(myStringDuplicate)); // It will consider the case sensitiveness
-		System.out.println(myString.equalsIgnoreCase(myStringDuplicate)); // It ignores the case sensitivesness while comaring the strings
+		System.out.println(myString.equalsIgnoreCase(myStringDuplicate)); // It ignores the case sensitiveness while comparing the strings
 		
 		System.out.println(myString);
-		System.out.println(myString.replace('a', 'x')); // to replace a single character ina word
-		System.out.println(myString.replace("city", "place")); // to replace a string or gorup chars in a given string
+		System.out.println(myString.replace('a', 'x')); // to replace a single character in a word
+		System.out.println(myString.replace("city", "place")); // to replace a string or group chars in a given string
 		
 		//*Trimming operatins
 		String sampleString = "       I am an automation engineer ";
