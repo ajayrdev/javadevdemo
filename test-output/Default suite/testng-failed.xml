@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demoproject.MyFirstTestNgClass">
+      <class name="com.automation.tests.BufferedWriterAndReaderLineByLine">
         <methods>
-          <include name="mySecondTestCase"/>
+          <include name="bufferedWriterAndReader"/>
         </methods>
-      </class> <!-- demoproject.MyFirstTestNgClass -->
+      </class> <!-- com.automation.tests.BufferedWriterAndReaderLineByLine -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,4 @@
+I am Writing a Story using Buffered writer
+I am Reading a Story using Buffered reader
+will see how it is working
+******************Finished******************

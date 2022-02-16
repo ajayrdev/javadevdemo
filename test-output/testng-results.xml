@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-15T11:16:36 IST" name="Default suite" finished-at="2022-02-15T11:16:36 IST" duration-ms="84">
+  <suite started-at="2022-02-16T20:49:00 IST" name="Default suite" finished-at="2022-02-16T20:49:00 IST" duration-ms="116">
     <groups>
     </groups>
-    <test started-at="2022-02-15T11:16:36 IST" name="Default test" finished-at="2022-02-15T11:16:36 IST" duration-ms="84">
-      <class name="com.automation.tests.ReadWritePropertiesFile">
-        <test-method signature="readData()[pri:0, instance:com.automation.tests.ReadWritePropertiesFile@87a85e1]" started-at="2022-02-15T11:16:36 IST" name="readData" finished-at="2022-02-15T11:16:36 IST" duration-ms="16" status="PASS">
+    <test started-at="2022-02-16T20:49:00 IST" name="Default test" finished-at="2022-02-16T20:49:00 IST" duration-ms="116">
+      <class name="com.automation.tests.PracReadWritePropertiesFile">
+        <test-method signature="readWriteProperties()[pri:0, instance:com.automation.tests.PracReadWritePropertiesFile@c03cf28]" started-at="2022-02-16T20:49:00 IST" name="readWriteProperties" finished-at="2022-02-16T20:49:00 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-      </class> <!-- com.automation.tests.ReadWritePropertiesFile -->
+        </test-method> <!-- readWriteProperties -->
+      </class> <!-- com.automation.tests.PracReadWritePropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
