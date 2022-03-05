@@ -35,7 +35,7 @@ public class BufferedWriterAndReaderLineByLine {
 			System.out.println("File is created");
 			bw.close();
 
-			FileReader fr = new FileReader(baseDirectory + fileRelativePath);
+			FileReader fr = new FileReader(baseDirectory + "\\src\\testabc\\resources\\readwritebwbr.txt");
 			BufferedReader br = new BufferedReader(fr);
 
 			String myStringValue;
@@ -47,9 +47,10 @@ public class BufferedWriterAndReaderLineByLine {
 			}
 			fr.close();
 			System.out.println(sb.toString());
+			
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Exception: "+e);
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

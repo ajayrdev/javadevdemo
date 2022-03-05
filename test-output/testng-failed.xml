@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.tests.BufferedWriterAndReaderLineByLine">
+      <class name="com.exceptionhandling.ReadMapObject">
         <methods>
-          <include name="bufferedWriterAndReader"/>
+          <include name="firstTestCase"/>
         </methods>
-      </class> <!-- com.automation.tests.BufferedWriterAndReaderLineByLine -->
+      </class> <!-- com.exceptionhandling.ReadMapObject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
